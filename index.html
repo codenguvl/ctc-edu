@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trường Cao Đẳng Du Lịch Cần Thơ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__bg"></div>
+        <div class="container">
+            <div class="header__logo">
+                <img src="images/logo.png" alt="Logo Trường Cao Đẳng Du Lịch Cần Thơ">
+            </div>
+            <div class="header__btn__contact">
+                <button>Liên hệ ngay</button>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 banner__item">
+                    <h1>HỆ THỐNG TUYỂN SINH ONLINE</h1>
+                    <span>TRƯỜNG CAO ĐẲNG DU LỊCH CẦN THƠ</span>
+                    <img src="images/logo2024.png" class="logo_2024" alt="Logo 2024">
+                    </br>
+                    <button>Liên hệ ngay</button>
+                </div>
+                <div class="col-12 col-md-6 banner__item__image">
+                    <img src="./images/banner.png" alt="Image banner">
+                    <img src="./images/overlay.png" class="overlay" alt="overlay">
+                    <div class="banner__item__school--code">
+                        <h3>MÃ TRƯỜNG</h3>
+                        <span>CDT5502</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="title">
+        <div class="container">
+            <h2>TẠI SAO BẠN CHỌN TRƯỜNG CAO ĐẲNG DU LỊCH CẦN THƠ?</h2>
+            <p>Là ngôi trường duy nhất ĐBSCL trực thuộc Bộ Văn hóa, Thể thao và Du lịch chuyên đào tạo nghiệp vụ du
+                lịch các hệ cao
+                đẳng, trung cấp, sơ cấp,...</p>
+        </div>
+    </section>
+    <section class="form">
+        <div class="container">
+            <h2>THÔNG TIN XÉT TUYỂN</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <form class="form" action="#" method="post">
+                <!--begin::Input group-->
+                <div class="fv-row">
+                    <!--begin::Dropzone-->
+                    <div class="dropzone" id="kt_dropzonejs_example_1">
+                        <!--begin::Message-->
+                        <div class="dz-message needsclick">
+                            <i class="bi bi-folder-plus"></i>
+
+                            <!--begin::Info-->
+                            <div class="ms-4">
+                                <h3 class="fs-5 fw-bold text-gray-900 mb-1">Drop files here or click to upload.</h3>
+                                <span class="fs-7 fw-semibold text-gray-500">Upload up to 10 files</span>
+                            </div>
+                            <!--end::Info-->
+                        </div>
+                    </div>
+                    <!--end::Dropzone-->
+                </div>
+                <!--end::Input group-->
+            </form>
+        </div>
+    </section>
+    <section>
+        <figure class="text-center">
+            <blockquote class="blockquote">
+                <p class="blockquote__name--school">Trường Cao đẳng Du lịch Cần Thơ</p>
+                <p>Số 47 Đường số 1, Khu Vực 3 Sông Hậu, phường Cái Khế, quận Ninh Kiều, Thành phố Cần Thơ</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                Nhà trường cam kết bảo mật tuyệt đối những thông tin và dữ liệu cá nhân của thí sinh
+            </figcaption>
+        </figure>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+<script>
+    var myDropzone = new Dropzone("#kt_dropzonejs_example_1", {
+        url: "https://keenthemes.com/scripts/void.php",
+        paramName: "file",
+        maxFiles: 10,
+        maxFilesize: 10, // MB
+        addRemoveLinks: true,
+        accept: function (file, done) {
+            if (file.name == "wow.jpg") {
+                done("Naha, you don't.");
+            } else {
+                done();
+            }
+        }
+    });
+</script>
+
+</html>
